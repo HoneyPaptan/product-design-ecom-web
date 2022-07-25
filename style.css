@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+body{
+    
+font-family: "Poppins", sans-serif;
+height: 100vh;
+background-color: #E7A2A0;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.menu ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menu ul li{
+    list-style-type: none;
+    padding: 20px 20px 20px;
+}
+.menu ul li a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: black;
+}
+.menu ul li a img{
+    width: 30px;
+}
+.list a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.logo h2{
+    font-size: 2rem;
+}
+
+
+.showcase img{
+    width: 8%;
+    cursor: pointer;
+}
+
+.btn img{
+    width: 25px;
+}
+.btn-1 img{
+    width: 19px;
+}
+
+.btn{
+    background-color: white;
+    border: none;
+    width: 30vh;
+    line-height: 7vh;
+    border-radius: 52px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 14px;
+    cursor: pointer;
+        
+font-family: "Poppins", sans-serif;
+}
+
+.btn-1{
+    width: 45px;
+    border-radius: 55px;
+    background-color: white;
+  cursor: pointer;
+    border: none;
+}
+
+.content h2{
+    margin-top: 50px;
+    font-size: 4rem;
+}
+
+.content{
+    
+    margin-left: 100px;
+
+}
+
+#img-1{
+    width: 12%;
+}
+
+#img-2{
+    opacity: 0.5;
+    
+    
+
+}
+#img-3{
+    opacity: 0.5;
+    
+    
+
+}
+#img-4{
+    opacity: 0.5;
+    
+    
+
+}
+#price{
+    margin-left: 3px;
+    font-size: 1.2rem;
+}
+
+.bag img{
+    width: 70%;
+    position: absolute;
+    top: 35%;
+    left: 70%;
+    
+animation: fly 4s ease-in-out infinite;
+}
+.buttons{
+    display: flex;
+}
+
+@keyframes fly {
+    0% {
+          transform: translate(-50%, -46%);
+    }
+
+    50% {
+          transform: translate(-50%, -54%);
+    }
+
+    100% {
+          transform: translate(-50%, -46%);
+    }
+}
+
+
+
+.roll{
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background-color: black;
+}
